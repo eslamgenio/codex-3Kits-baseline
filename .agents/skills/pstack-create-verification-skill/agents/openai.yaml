@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Create Verification Skill"
+  short_description: "Generate a project-local verification skill that drives your ..."
+  default_prompt: "Use $pstack-create-verification-skill for the current project task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Principle Fix Root Causes"
+  short_description: "Apply when debugging. Trace each symptom back to the first pl..."
+  default_prompt: "Use $pstack-principle-fix-root-causes for the current project task."
+policy:
+  allow_implicit_invocation: false

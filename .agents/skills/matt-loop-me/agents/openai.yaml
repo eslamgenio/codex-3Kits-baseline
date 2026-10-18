@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Loop Me"
+  short_description: "Spec the workflows you want to build"
+  default_prompt: "Use $matt-loop-me for the current project task."
+policy:
+  allow_implicit_invocation: false

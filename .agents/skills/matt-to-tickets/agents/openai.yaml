@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / To Tickets"
+  short_description: "Split a plan into tracer-bullet tickets"
+  default_prompt: "Use $matt-to-tickets for the current project task."
+policy:
+  allow_implicit_invocation: false

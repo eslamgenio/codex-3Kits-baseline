@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Frontend Ui Engineering"
+  short_description: "Builds production-quality, accessible, responsive user-facing..."
+  default_prompt: "Use $addy-frontend-ui-engineering for the current project task."
+policy:
+  allow_implicit_invocation: true

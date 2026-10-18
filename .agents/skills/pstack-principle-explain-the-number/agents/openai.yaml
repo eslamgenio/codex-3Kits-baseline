@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Principle Explain The Number"
+  short_description: "Apply before you trust, report, or act on a number you measur..."
+  default_prompt: "Use $pstack-principle-explain-the-number for the current project task."
+policy:
+  allow_implicit_invocation: false

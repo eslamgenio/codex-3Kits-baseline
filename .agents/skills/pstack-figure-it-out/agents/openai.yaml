@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Figure It Out"
+  short_description: "Design an auditable playbook when no narrower one fits: a lar..."
+  default_prompt: "Use $pstack-figure-it-out for the current project task."
+policy:
+  allow_implicit_invocation: false

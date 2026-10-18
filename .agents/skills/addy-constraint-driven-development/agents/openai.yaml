@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Constraint Driven Development"
+  short_description: "Establishes a project's quality bar as a written contract and..."
+  default_prompt: "Use $addy-constraint-driven-development for the current project task."
+policy:
+  allow_implicit_invocation: true

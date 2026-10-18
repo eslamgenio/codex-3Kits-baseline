@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Recall"
+  short_description: "Reconstruct your recent working context from your own chat hi..."
+  default_prompt: "Use $pstack-recall for the current project task."
+policy:
+  allow_implicit_invocation: false

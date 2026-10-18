@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Code Simplification"
+  short_description: "Simplifies code for clarity. Use when refactoring code for cl..."
+  default_prompt: "Use $addy-code-simplification for the current project task."
+policy:
+  allow_implicit_invocation: true

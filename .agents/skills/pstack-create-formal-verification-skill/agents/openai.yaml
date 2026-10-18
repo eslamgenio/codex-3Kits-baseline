@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Create Formal Verification Skill"
+  short_description: "Generate a project-local skill that formally verifies the cod..."
+  default_prompt: "Use $pstack-create-formal-verification-skill for the current project task."
+policy:
+  allow_implicit_invocation: false

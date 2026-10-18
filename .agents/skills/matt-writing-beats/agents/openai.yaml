@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Writing Beats"
+  short_description: "Assemble raw material into beats"
+  default_prompt: "Use $matt-writing-beats for the current project task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / TDD"
+  short_description: "Test-driven red-green-refactor"
+  default_prompt: "Use $matt-tdd for the current project task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Typescript Best Practices"
+  short_description: "TypeScript best practices. Use when reading or editing any .t..."
+  default_prompt: "Use $pstack-typescript-best-practices for the current project task."
+policy:
+  allow_implicit_invocation: false

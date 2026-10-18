@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Scaffold Exercises"
+  short_description: "Scaffold lint-ready course exercises"
+  default_prompt: "Use $matt-scaffold-exercises for the current project task."
+policy:
+  allow_implicit_invocation: true

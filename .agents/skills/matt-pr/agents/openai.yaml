@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / PR"
+  short_description: "Write a PR body that's fast to review"
+  default_prompt: "Use $matt-pr for the current project task."
+policy:
+  allow_implicit_invocation: true

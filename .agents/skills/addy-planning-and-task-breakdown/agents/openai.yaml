@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Planning And Task Breakdown"
+  short_description: "Breaks work into ordered tasks. Use when you have a spec or c..."
+  default_prompt: "Use $addy-planning-and-task-breakdown for the current project task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Performance Optimization"
+  short_description: "Optimizes application performance across frontend, backend, q..."
+  default_prompt: "Use $addy-performance-optimization for the current project task."
+policy:
+  allow_implicit_invocation: true

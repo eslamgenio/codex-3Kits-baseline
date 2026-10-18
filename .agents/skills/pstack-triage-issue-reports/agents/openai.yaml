@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Triage Issue Reports"
+  short_description: "Triage configured Slack issue reports in a bounded manual Cod..."
+  default_prompt: "Use $pstack-triage-issue-reports for the current project task."
+policy:
+  allow_implicit_invocation: false

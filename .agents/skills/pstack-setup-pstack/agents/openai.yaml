@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Setup Pstack"
+  short_description: "Configure which models pstack uses per role and at what reaso..."
+  default_prompt: "Use $pstack-setup-pstack for the current project task."
+policy:
+  allow_implicit_invocation: true

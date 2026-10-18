@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Architect"
+  short_description: "Sketch types, signatures, and module structure before code, t..."
+  default_prompt: "Use $pstack-architect for the current project task."
+policy:
+  allow_implicit_invocation: false

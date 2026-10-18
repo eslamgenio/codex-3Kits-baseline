@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Git Workflow And Versioning"
+  short_description: "Structures git workflow practices. Use when making any code c..."
+  default_prompt: "Use $addy-git-workflow-and-versioning for the current project task."
+policy:
+  allow_implicit_invocation: true

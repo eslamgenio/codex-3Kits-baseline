@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Retro"
+  short_description: "Conduct a retrospective on a coding session."
+  default_prompt: "Use $matt-retro for the current project task."
+policy:
+  allow_implicit_invocation: false

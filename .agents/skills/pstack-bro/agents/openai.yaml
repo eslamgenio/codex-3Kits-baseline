@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Bro"
+  short_description: "Restate the last message in plain human language, with no jar..."
+  default_prompt: "Use $pstack-bro for the current project task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Api And Interface Design"
+  short_description: "Guides stable API and interface design. Use when designing AP..."
+  default_prompt: "Use $addy-api-and-interface-design for the current project task."
+policy:
+  allow_implicit_invocation: true

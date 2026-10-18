@@ -1,0 +1,125 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Python312\\python.exe",
+  "baseline": "7cebfc3214087620f065236c1d07b3b73567e27c",
+  "checks": [
+    {
+      "name": "baseline preserves timezone 2026-10-18T10:00:00Z",
+      "passed": true,
+      "detail": "2026-10-18 10:00:00+00:00"
+    },
+    {
+      "name": "current preserves timezone 2026-10-18T10:00:00Z",
+      "passed": false,
+      "error": "AssertionError: parser returned naive datetime datetime.datetime(2026, 10, 18, 10, 0)"
+    },
+    {
+      "name": "alert age equals 3600 seconds 2026-10-18T10:00:00Z",
+      "passed": false,
+      "error": "TypeError: can't subtract offset-naive and offset-aware datetimes"
+    },
+    {
+      "name": "archive retains instant and offset 2026-10-18T10:00:00Z",
+      "passed": false,
+      "error": "AssertionError: archive loses timezone: {'recorded_at': '2026-10-18T10:00:00'}"
+    },
+    {
+      "name": "untracked quick export retains offset 2026-10-18T10:00:00Z",
+      "passed": false,
+      "error": "AssertionError: untracked consumer returns ambiguous timestamp '2026-10-18T10:00:00'"
+    },
+    {
+      "name": "baseline preserves timezone 2026-10-18T12:00:00+02:00",
+      "passed": true,
+      "detail": "2026-10-18 12:00:00+02:00"
+    },
+    {
+      "name": "current preserves timezone 2026-10-18T12:00:00+02:00",
+      "passed": false,
+      "error": "AssertionError: parser returned naive datetime datetime.datetime(2026, 10, 18, 12, 0)"
+    },
+    {
+      "name": "alert age equals 3600 seconds 2026-10-18T12:00:00+02:00",
+      "passed": false,
+      "error": "TypeError: can't subtract offset-naive and offset-aware datetimes"
+    },
+    {
+      "name": "archive retains instant and offset 2026-10-18T12:00:00+02:00",
+      "passed": false,
+      "error": "AssertionError: archive loses timezone: {'recorded_at': '2026-10-18T12:00:00'}"
+    },
+    {
+      "name": "untracked quick export retains offset 2026-10-18T12:00:00+02:00",
+      "passed": false,
+      "error": "AssertionError: untracked consumer returns ambiguous timestamp '2026-10-18T12:00:00'"
+    },
+    {
+      "name": "baseline preserves timezone 2026-10-18T05:00:00-05:00",
+      "passed": true,
+      "detail": "2026-10-18 05:00:00-05:00"
+    },
+    {
+      "name": "current preserves timezone 2026-10-18T05:00:00-05:00",
+      "passed": false,
+      "error": "AssertionError: parser returned naive datetime datetime.datetime(2026, 10, 18, 5, 0)"
+    },
+    {
+      "name": "alert age equals 3600 seconds 2026-10-18T05:00:00-05:00",
+      "passed": false,
+      "error": "TypeError: can't subtract offset-naive and offset-aware datetimes"
+    },
+    {
+      "name": "archive retains instant and offset 2026-10-18T05:00:00-05:00",
+      "passed": false,
+      "error": "AssertionError: archive loses timezone: {'recorded_at': '2026-10-18T05:00:00'}"
+    },
+    {
+      "name": "untracked quick export retains offset 2026-10-18T05:00:00-05:00",
+      "passed": false,
+      "error": "AssertionError: untracked consumer returns ambiguous timestamp '2026-10-18T05:00:00'"
+    }
+  ],
+  "cli_commands": [
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "<TEST_ROOT>\\telemetry\\cli.py",
+        "2026-10-18T12:00:00+02:00"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<TEST_ROOT>\\telemetry\\cli.py\", line 7, in <module>\n    if __name__==\"__main__\":print(alert_age(sys.argv[1]))\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"<TEST_ROOT>\\telemetry\\cli.py\", line 6, in alert_age\n    return (now-parse_timestamp(value)).total_seconds()\n            ~~~^~~~~~~~~~~~~~~~~~~~~~~\nTypeError: can't subtract offset-naive and offset-aware datetimes\n"
+    },
+    {
+      "command": [
+        "C:\\Python312\\python.exe",
+        "-B",
+        "<TEST_ROOT>\\telemetry\\export.py",
+        "2026-10-18T12:00:00+02:00"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"recorded_at\": \"2026-10-18T12:00:00\"}\n",
+      "stderr": ""
+    }
+  ],
+  "product_hashes_before": {
+    "timestamps.py": "a6ccc6079e535e8ef874b72ba2eceb9c9f45af61517a9f82cb0fb0c2abe60caf",
+    "cli.py": "532baee9e427c019dd8ae28f96af7a9b82911129954b450bd0060f2fb3eed187",
+    "export.py": "ec35eb212332812375ac74e8363b07ff19942825b69ccf6f27898a96a6d6bee4",
+    "quick_export.py": "316cecb6cd54a9173e370e7a4b656f546aab729c0b7a3c1b3d44f3658544633d",
+    "README.md": "779d1205aa033b5322c163575a33c2e65f0434264c5b5355baaad25d8a79b258",
+    "SPEC.md": "68f8d32457bf0514582d85fcfe21bb7e022f7fac2ae2ad5b81bd90a4000608ed"
+  },
+  "product_hashes_after": {
+    "timestamps.py": "a6ccc6079e535e8ef874b72ba2eceb9c9f45af61517a9f82cb0fb0c2abe60caf",
+    "cli.py": "532baee9e427c019dd8ae28f96af7a9b82911129954b450bd0060f2fb3eed187",
+    "export.py": "ec35eb212332812375ac74e8363b07ff19942825b69ccf6f27898a96a6d6bee4",
+    "quick_export.py": "316cecb6cd54a9173e370e7a4b656f546aab729c0b7a3c1b3d44f3658544633d",
+    "README.md": "779d1205aa033b5322c163575a33c2e65f0434264c5b5355baaad25d8a79b258",
+    "SPEC.md": "68f8d32457bf0514582d85fcfe21bb7e022f7fac2ae2ad5b81bd90a4000608ed"
+  },
+  "product_files_unchanged": true,
+  "passed": 3,
+  "failed": 12
+}

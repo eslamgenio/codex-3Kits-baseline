@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Observability And Instrumentation"
+  short_description: "Instruments code so production behavior is visible and diagno..."
+  default_prompt: "Use $addy-observability-and-instrumentation for the current project task."
+policy:
+  allow_implicit_invocation: true

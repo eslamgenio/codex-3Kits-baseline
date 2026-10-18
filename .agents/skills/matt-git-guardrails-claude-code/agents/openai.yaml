@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Git Guardrails for Claude Code"
+  short_description: "Block dangerous git commands"
+  default_prompt: "Use $matt-git-guardrails-claude-code for the current project task."
+policy:
+  allow_implicit_invocation: true

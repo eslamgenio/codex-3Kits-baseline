@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Sharpen"
+  short_description: "Sharpen a task before starting: the expert approach, what the..."
+  default_prompt: "Use $pstack-sharpen for the current project task."
+policy:
+  allow_implicit_invocation: false

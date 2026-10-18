@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Code Review And Quality"
+  short_description: "Conducts multi-axis code review. Use before merging any chang..."
+  default_prompt: "Use $addy-code-review-and-quality for the current project task."
+policy:
+  allow_implicit_invocation: true

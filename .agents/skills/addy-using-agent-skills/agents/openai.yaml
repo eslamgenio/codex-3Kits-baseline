@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Using Agent Skills"
+  short_description: "Discovers and invokes agent skills. Use when starting a sessi..."
+  default_prompt: "Use $addy-using-agent-skills for the current project task."
+policy:
+  allow_implicit_invocation: true

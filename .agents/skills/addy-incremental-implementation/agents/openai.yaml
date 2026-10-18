@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Incremental Implementation"
+  short_description: "Delivers changes incrementally in thin, verifiable slices. Us..."
+  default_prompt: "Use $addy-incremental-implementation for the current project task."
+policy:
+  allow_implicit_invocation: true

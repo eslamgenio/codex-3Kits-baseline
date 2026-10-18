@@ -1,0 +1,88 @@
+{
+  "feature": "create-note",
+  "criteria": [
+    "AC-01"
+  ],
+  "unverified": [
+    "AC-02",
+    "AC-03"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Python312\\python.exe",
+        "<TEST_ROOT>\\notes-cli\\notes.py",
+        "--data-dir",
+        "<TEST_ROOT>\\notes-cli\\.verification-scratch\\field-notes-3ks4vydq\\data",
+        "--help"
+      ],
+      "stdout": "usage: notes.py [-h] --data-dir DATA_DIR {add,list,search,delete} ...\n\npositional arguments:\n  {add,list,search,delete}\n\noptions:\n  -h, --help            show this help message and exit\n  --data-dir DATA_DIR\n",
+      "stderr": "",
+      "exit_status": 0
+    },
+    {
+      "argv": [
+        "C:\\Python312\\python.exe",
+        "<TEST_ROOT>\\notes-cli\\notes.py",
+        "--data-dir",
+        "<TEST_ROOT>\\notes-cli\\.verification-scratch\\field-notes-3ks4vydq\\data",
+        "list"
+      ],
+      "stdout": "[]\n",
+      "stderr": "",
+      "exit_status": 0
+    },
+    {
+      "argv": [
+        "C:\\Python312\\python.exe",
+        "<TEST_ROOT>\\notes-cli\\notes.py",
+        "--data-dir",
+        "<TEST_ROOT>\\notes-cli\\.verification-scratch\\field-notes-3ks4vydq\\data",
+        "add",
+        "--title",
+        "Quarterly plan",
+        "--body",
+        "Inspect device fleet"
+      ],
+      "stdout": "{\"id\": 1, \"title\": \"Quarterly plan\", \"body\": \"Inspect device fleet\"}\n",
+      "stderr": "",
+      "exit_status": 0
+    },
+    {
+      "argv": [
+        "C:\\Python312\\python.exe",
+        "<TEST_ROOT>\\notes-cli\\notes.py",
+        "--data-dir",
+        "<TEST_ROOT>\\notes-cli\\.verification-scratch\\field-notes-3ks4vydq\\data",
+        "list"
+      ],
+      "stdout": "[{\"id\": 1, \"title\": \"Quarterly plan\", \"body\": \"Inspect device fleet\"}]\n",
+      "stderr": "",
+      "exit_status": 0
+    }
+  ],
+  "status": "passed",
+  "doctor": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "C:\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "project": "<TEST_ROOT>\\notes-cli",
+    "app_sha256": "2B96B4DE36C705DA370722A62F593BD93774035BE8FEF735DEE19313C3870BAD",
+    "expected_sha256": "2B96B4DE36C705DA370722A62F593BD93774035BE8FEF735DEE19313C3870BAD",
+    "scratch_parent": "<TEST_ROOT>\\notes-cli\\.verification-scratch",
+    "evidence_parent": "<TEST_ROOT>\\notes-cli\\verification-evidence"
+  },
+  "data_directory": "<TEST_ROOT>\\notes-cli\\.verification-scratch\\field-notes-3ks4vydq\\data",
+  "initial_data_absent": true,
+  "assertions": [
+    "empty initial list",
+    "exact add fields",
+    "fresh-process list",
+    "persisted JSON matches"
+  ],
+  "cleanup": {
+    "owned_directory": "<TEST_ROOT>\\notes-cli\\.verification-scratch\\field-notes-3ks4vydq",
+    "removed": true
+  },
+  "evidence_survived_cleanup": true
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Arena"
+  short_description: "Spawn N parallel candidates at the same task, pick a base, gr..."
+  default_prompt: "Use $pstack-arena for the current project task."
+policy:
+  allow_implicit_invocation: false

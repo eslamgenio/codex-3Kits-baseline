@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Research"
+  short_description: "Research from high-trust sources"
+  default_prompt: "Use $matt-research for the current project task."
+policy:
+  allow_implicit_invocation: true

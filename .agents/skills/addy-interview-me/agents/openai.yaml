@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Interview Me"
+  short_description: "Extracts what the user actually wants instead of what they th..."
+  default_prompt: "Use $addy-interview-me for the current project task."
+policy:
+  allow_implicit_invocation: true

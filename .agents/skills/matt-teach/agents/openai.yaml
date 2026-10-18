@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Teach"
+  short_description: "Learn a concept in a guided workspace"
+  default_prompt: "Use $matt-teach for the current project task."
+policy:
+  allow_implicit_invocation: false

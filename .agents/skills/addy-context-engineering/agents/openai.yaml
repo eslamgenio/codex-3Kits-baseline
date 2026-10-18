@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Context Engineering"
+  short_description: "Optimizes agent context setup. Use when starting a new sessio..."
+  default_prompt: "Use $addy-context-engineering for the current project task."
+policy:
+  allow_implicit_invocation: true

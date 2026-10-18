@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Diagnosing Bugs"
+  short_description: "Diagnose hard bugs and regressions"
+  default_prompt: "Use $matt-diagnosing-bugs for the current project task."
+policy:
+  allow_implicit_invocation: true

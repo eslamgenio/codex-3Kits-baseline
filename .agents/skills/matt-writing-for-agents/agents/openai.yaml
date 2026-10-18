@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Writing for Agents"
+  short_description: "Write documents agents consume"
+  default_prompt: "Use $matt-writing-for-agents for the current project task."
+policy:
+  allow_implicit_invocation: true

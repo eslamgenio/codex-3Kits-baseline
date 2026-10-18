@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / In Your Own Words"
+  short_description: "Restate in your own words what you think the user's goals are..."
+  default_prompt: "Use $pstack-in-your-own-words for the current project task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Automate Me"
+  short_description: "Use for \"automate me\", \"create/update/refresh my -mode skill\"..."
+  default_prompt: "Use $pstack-automate-me for the current project task."
+policy:
+  allow_implicit_invocation: false

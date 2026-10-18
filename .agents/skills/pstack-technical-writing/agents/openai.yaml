@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Technical Writing"
+  short_description: "Layered technical-writing standard: Diátaxis structure, Googl..."
+  default_prompt: "Use $pstack-technical-writing for the current project task."
+policy:
+  allow_implicit_invocation: false

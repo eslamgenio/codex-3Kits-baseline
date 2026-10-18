@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / No Comments"
+  short_description: "Spawn Comment Sicko, fix accepted findings, and offer encodin..."
+  default_prompt: "Use $pstack-no-comments for the current project task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,20 @@
+{
+  "official_validator": {
+    "skills": 121,
+    "failures": []
+  },
+  "script_syntax": {
+    "counts": {
+      "bash": 6,
+      "node": 1
+    },
+    "failures": []
+  },
+  "worktree_audit": {
+    "exit": 0,
+    "spaced_path_preserved": true,
+    "local_refs_unchanged": true,
+    "stdout": "# base: main\nSIZE\tAGE\tMERGED\tDIRTY\tREMOTE\tPR\tLAST_CHAT\tBUCKET\tWORKTREE\n2.0K\t0d\tYES\tclean\tdetached\t-\t-\tsafe\t<BUILD_ROOT>/work/baseline-checks/feature tree\n",
+    "stderr": ""
+  }
+}

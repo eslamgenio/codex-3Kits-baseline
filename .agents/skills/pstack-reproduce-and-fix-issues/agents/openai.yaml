@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Reproduce And Fix Issues"
+  short_description: "Reproduce triaged issues in a bounded manual Codex run or aut..."
+  default_prompt: "Use $pstack-reproduce-and-fix-issues for the current project task."
+policy:
+  allow_implicit_invocation: false

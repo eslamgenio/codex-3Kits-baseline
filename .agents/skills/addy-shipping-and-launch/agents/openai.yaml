@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Shipping And Launch"
+  short_description: "Prepares production launches. Use when preparing to deploy to..."
+  default_prompt: "Use $addy-shipping-and-launch for the current project task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Idea Refine"
+  short_description: "Refines raw ideas into sharp, actionable concepts through str..."
+  default_prompt: "Use $addy-idea-refine for the current project task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Writing Fragments"
+  short_description: "Mine raw writing fragments"
+  default_prompt: "Use $matt-writing-fragments for the current project task."
+policy:
+  allow_implicit_invocation: false

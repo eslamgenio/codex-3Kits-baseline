@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Debugging And Error Recovery"
+  short_description: "Guides systematic root-cause debugging. Use when tests fail, ..."
+  default_prompt: "Use $addy-debugging-and-error-recovery for the current project task."
+policy:
+  allow_implicit_invocation: true

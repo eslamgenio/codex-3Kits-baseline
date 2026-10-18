@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matt / Implement Spec"
+  short_description: "Implement the result of /to-spec and /to-tickets in code."
+  default_prompt: "Use $matt-implement-spec for the current project task."
+policy:
+  allow_implicit_invocation: false

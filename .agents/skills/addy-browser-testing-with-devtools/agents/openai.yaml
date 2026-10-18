@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Browser Testing With Devtools"
+  short_description: "Tests in real browsers via Chrome DevTools MCP. Use when buil..."
+  default_prompt: "Use $addy-browser-testing-with-devtools for the current project task."
+policy:
+  allow_implicit_invocation: true

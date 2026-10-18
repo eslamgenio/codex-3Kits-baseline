@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Deprecation And Migration"
+  short_description: "Manages deprecation and migration. Use when removing old syst..."
+  default_prompt: "Use $addy-deprecation-and-migration for the current project task."
+policy:
+  allow_implicit_invocation: true

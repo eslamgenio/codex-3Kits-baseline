@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "skills": 121,
+  "families": {
+    "matt": 38,
+    "addy": 25,
+    "pstack": 58
+  },
+  "source_snapshots": 578,
+  "structural": "passed",
+  "official_validator": "121/121 passed",
+  "native_explicit_loader": "5/5 attached",
+  "targeted_forward_tests": {
+    "create-verification-skill": "passed; one real CLI journey, proof retained",
+    "blast-radius": "passed; detected two real regressions",
+    "interrogate": "passed; two fresh reviewers, model diversity unknown"
+  },
+  "all_workflows_behaviorally_tested": false
+}

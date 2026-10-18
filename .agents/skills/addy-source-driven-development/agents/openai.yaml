@@ -1,0 +1,6 @@
+interface:
+  display_name: "Addy / Source Driven Development"
+  short_description: "Grounds every implementation decision in official documentati..."
+  default_prompt: "Use $addy-source-driven-development for the current project task."
+policy:
+  allow_implicit_invocation: true

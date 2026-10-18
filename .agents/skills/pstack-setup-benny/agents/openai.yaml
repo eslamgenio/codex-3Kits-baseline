@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pstack / Setup Benny"
+  short_description: "Configure Benny and prepare its triage and repro automations...."
+  default_prompt: "Use $pstack-setup-benny for the current project task."
+policy:
+  allow_implicit_invocation: false
